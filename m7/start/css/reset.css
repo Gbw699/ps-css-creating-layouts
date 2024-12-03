@@ -3,6 +3,15 @@
    License: none (public domain)
 */
 
+h1,
+h2,
+h3,
+p {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
 html,
 body,
 div,
@@ -10,13 +19,9 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
-h3,
 h4,
 h5,
 h6,
-p,
 blockquote,
 pre,
 a,
@@ -87,8 +92,8 @@ video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	/* font-size: 100%; */
+	/* font: inherit; */
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
